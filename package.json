@@ -1,13 +1,23 @@
 {
   "name": "webpack-sandbox-demo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "version": "0.1.0",
   "private": true,
+  "dependencies": {
+    "core-js": "3.1.x",
+    "react": "16.8.x",
+    "react-dom": "16.8.x"
+  },
   "devDependencies": {
     "@babel/cli": "7.4.x",
     "@babel/core": "7.4.x",
     "@babel/plugin-proposal-class-properties": "7.4.x",
-    "@babel/preset-env": "7.4.x"
-  }
+    "@babel/preset-env": "7.4.x",
+    "@babel/preset-react": "7.0.x",
+    "prettier": "^2.7.1"
+  },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 firefox versions",
+    "last 2 safari versions"
+  ]
 }
