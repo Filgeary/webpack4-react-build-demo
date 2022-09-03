@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "7.4.x",
+    "@babel/core": "7.4.x",
+    "@babel/plugin-transform-block-scoping": "7.4.x",
+    "@babel/plugin-transform-classes": "7.4.x",
+    "@babel/plugin-transform-template-literals": "7.4.x"
+  }
 }
