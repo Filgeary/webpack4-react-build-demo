@@ -1,5 +1,8 @@
 class TestApp {
+  getData = () => console.log(Date.now())
+
   init(title) {
+    this.getData()
     console.log(`${title} Sandbox demo`)
   }
 }
