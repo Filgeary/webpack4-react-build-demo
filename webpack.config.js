@@ -1,8 +1,21 @@
 module.exports = {
   mode: 'development',
+  entry: './src/index.jsx',
 
   module: {
     rules: [
+      // JS, JSX
+      // ----------------------------------------
+      {
+        test: /\.js|jsx$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'babel-loader',
+          },
+        ],
+      },
+
       // images
       // ----------------------------------------
       {

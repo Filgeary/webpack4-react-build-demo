@@ -16,6 +16,7 @@
     "@babel/plugin-proposal-class-properties": "7.4.x",
     "@babel/preset-env": "7.4.x",
     "@babel/preset-react": "7.0.x",
+    "babel-loader": "8.0.x",
     "file-loader": "4.2.x",
     "prettier": "^2.7.1",
     "webpack": "4.35.x",
