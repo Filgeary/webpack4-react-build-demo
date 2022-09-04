@@ -17,8 +17,10 @@
     "@babel/preset-env": "7.4.x",
     "@babel/preset-react": "7.0.x",
     "babel-loader": "8.0.x",
+    "css-loader": "3.2.x",
     "file-loader": "4.2.x",
     "prettier": "^2.7.1",
+    "style-loader": "1.0.x",
     "webpack": "4.35.x",
     "webpack-cli": "3.3.x"
   },
