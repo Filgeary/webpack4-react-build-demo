@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 module.exports = {
   mode: 'development',
   entry: './src/index.jsx',
@@ -57,4 +59,12 @@ module.exports = {
       },
     ],
   },
+
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'public/index.html',
+      title: 'Webpack Sandbox demo',
+      buildTime: new Date().toLocaleString(),
+    }),
+  ],
 }
