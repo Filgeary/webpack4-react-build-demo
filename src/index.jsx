@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './style.css'
+import './style.scss'
 
 const App = () => <h1>Webpack</h1>
 
