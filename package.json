@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "npx webpack-dev-server",
-    "build": "npx webpack"
+    "clean": "rm -rf build/",
+    "build": "yarn run clean && npx webpack --mode=production"
   },
   "dependencies": {
     "core-js": "3.1.x",
