@@ -1,1 +1,3 @@
-# webpack-sandbox-demo
+# webpack4-react-build-demo
+
+> WIP
