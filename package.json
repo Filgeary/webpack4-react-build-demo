@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npx webpack"
+    "start": "npx webpack-dev-server",
+    "build": "npx webpack"
   },
   "dependencies": {
     "core-js": "3.1.x",
@@ -26,7 +27,8 @@
     "sass-loader": "8.0.x",
     "style-loader": "1.0.x",
     "webpack": "4.36.x",
-    "webpack-cli": "3.3.x"
+    "webpack-cli": "3.3.x",
+    "webpack-dev-server": "3.9.x"
   },
   "browserslist": [
     "last 2 chrome versions",

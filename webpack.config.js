@@ -71,4 +71,8 @@ module.exports = {
       filename: 'style-[hash:7].css',
     }),
   ],
+
+  devServer: {
+    open: true,
+  },
 }
